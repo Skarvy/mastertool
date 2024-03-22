@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lista de Personajes</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Lista de Personajes</h1>
+    <form id="character-form">
+        <input type="text" id="name" placeholder="Nombre" required>
+        <input type="number" id="hp-total" placeholder="HP Total" required>
+        <input type="number" id="hp-actual" placeholder="HP Actual" required>
+        <input type="number" id="gold" placeholder="Oro" required>
+        <input type="text" id="status" placeholder="Estado" required>
+        <button type="submit">Agregar Personaje</button>
+    </form>
+    <div id="character-list"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
